@@ -25,10 +25,10 @@ int access = 0;
 String NFCID;
 char message_buff[100];
 
-const char* ssid = "CITC-Lab";
-const char* password = "r3v3rs3!LAB";
+const char* ssid = "";
+const char* password = "";
 
-const char* mqtt_server = "178.32.217.100";
+const char* mqtt_server = "";
 const char* mqtt_username = "esp12";
 const char* mqtt_password = "";
 const String mqtt_topic_syntax = "keyduino/nfc/";
